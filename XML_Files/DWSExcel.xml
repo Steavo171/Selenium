@@ -1,0 +1,11 @@
+<suite name ="Suite">
+    <test name ="firefox test">
+        <parameter name ="browser" value ="chrome"/>
+        <classes>
+            <class name="com.Excel.DWSEXCEL">
+
+            </class>
+
+        </classes>
+    </test>
+</suite>
