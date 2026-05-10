@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoWebShop Suite">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+
+    <test name="DemoWebShop Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.DWS.DWSTest"></class>
+        </classes>
+    </test>
+    <parameter name="useremail" value="maxplank@gmail.com"></parameter>
+    <parameter name="password" value="1234567890"></parameter>
+
+</suite>
